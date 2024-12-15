@@ -15,7 +15,9 @@ header {
     background-color: #007bff;
     color: white;
     padding: 20px;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .logo {
@@ -23,9 +25,6 @@ header .logo {
     font-weight: bold;
 }
 
-header .search-bar {
-    margin-top: 10px;
-}
 
 header input[type="text"] {
     width: 100%;
